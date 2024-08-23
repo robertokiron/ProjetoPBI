@@ -27,6 +27,15 @@
       "name": "b386dbf511a98c46f318",
       "visualContainers": [
         {
+          "config": "{\"name\":\"780d7b2632e02d503434\",\"layouts\":[{\"id\":0,\"position\":{\"x\":16,\"y\":490,\"width\":1136,\"height\":230,\"z\":1,\"tabOrder\":1}}],\"singleVisual\":{\"visualType\":\"barChart\",\"projections\":{\"Y\":[{\"queryRef\":\"D_posto.qtd_posto\"}],\"Category\":[{\"queryRef\":\"D_posto.estado\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"D_posto\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"qtd_posto\"},\"Name\":\"D_posto.qtd_posto\",\"NativeReferenceName\":\"qtd_posto\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"estado\"},\"Name\":\"D_posto.estado\",\"NativeReferenceName\":\"estado\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"qtd_posto\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 230.00,
+          "width": 1136.00,
+          "x": 16.00,
+          "y": 490.00,
+          "z": 1.00
+        },
+        {
           "config": "{\"name\":\"b98c6b54c5cd4b8452ab\",\"layouts\":[{\"id\":0,\"position\":{\"x\":16,\"y\":0,\"z\":0,\"width\":1136,\"height\":479.99999999999994,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"columnChart\",\"projections\":{\"Y\":[{\"queryRef\":\"D_posto.qtd_posto\"}],\"Category\":[{\"queryRef\":\"D_posto.descregional\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"D_posto\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"qtd_posto\"},\"Name\":\"D_posto.qtd_posto\",\"NativeReferenceName\":\"qtd_posto\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"descregional\"},\"Name\":\"D_posto.descregional\",\"NativeReferenceName\":\"descregional\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"qtd_posto\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
           "filters": "[]",
           "height": 480.00,
