@@ -1,5 +1,6 @@
 {
   "config": "{\"version\":\"5.55\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU06\",\"version\":\"5.56\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"useEnhancedTooltips\":true,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}]}}",
+  "config": "{\"version\":\"5.55\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU06\",\"version\":\"5.56\",\"type\":2}},\"activeSectionIndex\":1,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"useEnhancedTooltips\":true,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}]}}",
   "layoutOptimization": 0,
   "resourcePackages": [
     {
@@ -21,30 +22,55 @@
     {
       "config": "{}",
       "displayName": "Página 1",
+      "displayName": "Página 2",
       "displayOption": 1,
       "filters": "[]",
       "height": 720.00,
       "name": "b386dbf511a98c46f318",
+      "name": "54b278c0c00a457d0072",
+      "ordinal": 1,
       "visualContainers": [
         {
           "config": "{\"name\":\"780d7b2632e02d503434\",\"layouts\":[{\"id\":0,\"position\":{\"x\":16,\"y\":490,\"width\":1136,\"height\":230,\"z\":1,\"tabOrder\":1}}],\"singleVisual\":{\"visualType\":\"barChart\",\"projections\":{\"Y\":[{\"queryRef\":\"D_posto.qtd_posto\"}],\"Category\":[{\"queryRef\":\"D_posto.estado\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"D_posto\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"qtd_posto\"},\"Name\":\"D_posto.qtd_posto\",\"NativeReferenceName\":\"qtd_posto\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"estado\"},\"Name\":\"D_posto.estado\",\"NativeReferenceName\":\"estado\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"qtd_posto\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "config": "{\"name\":\"25e8cced884d78d0929e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":496,\"y\":0,\"width\":304,\"height\":304,\"z\":0}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"D_posto.QTD_NomeFantasia\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"D_posto\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"QTD_NomeFantasia\"},\"Name\":\"D_posto.QTD_NomeFantasia\",\"NativeReferenceName\":\"QTD_NomeFantasia\"}]},\"autoSelectVisualType\":true,\"drillFilterOtherVisuals\":true}}",
           "filters": "[]",
           "height": 230.00,
           "width": 1136.00,
           "x": 16.00,
           "y": 490.00,
           "z": 1.00
+          "height": 304.00,
+          "width": 304.00,
+          "x": 496.00,
+          "y": 0.00,
+          "z": 0.00
         },
         {
           "config": "{\"name\":\"b98c6b54c5cd4b8452ab\",\"layouts\":[{\"id\":0,\"position\":{\"x\":16,\"y\":0,\"z\":0,\"width\":1136,\"height\":479.99999999999994,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"columnChart\",\"projections\":{\"Y\":[{\"queryRef\":\"D_posto.qtd_posto\"}],\"Category\":[{\"queryRef\":\"D_posto.descregional\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"D_posto\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"qtd_posto\"},\"Name\":\"D_posto.qtd_posto\",\"NativeReferenceName\":\"qtd_posto\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"descregional\"},\"Name\":\"D_posto.descregional\",\"NativeReferenceName\":\"descregional\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"qtd_posto\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "config": "{\"name\":\"82e49c7b3e117a7984e0\",\"layouts\":[{\"id\":0,\"position\":{\"x\":144,\"y\":416,\"z\":1,\"width\":528,\"height\":304,\"tabOrder\":1}}],\"singleVisual\":{\"visualType\":\"lineChart\",\"projections\":{\"Category\":[{\"queryRef\":\"D_posto.regiao\"}],\"Y\":[{\"queryRef\":\"D_posto.QTD_NomeFantasia\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"D_posto\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"regiao\"},\"Name\":\"D_posto.regiao\",\"NativeReferenceName\":\"regiao\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"QTD_NomeFantasia\"},\"Name\":\"D_posto.QTD_NomeFantasia\",\"NativeReferenceName\":\"QTD_NomeFantasia\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"regiao\"}}}]},\"autoSelectVisualType\":true,\"drillFilterOtherVisuals\":true}}",
           "filters": "[]",
           "height": 480.00,
           "width": 1136.00,
           "x": 16.00,
           "y": 0.00,
           "z": 0.00
+          "height": 304.00,
+          "width": 528.00,
+          "x": 144.00,
+          "y": 416.00,
+          "z": 1.00
         }
       ],
+      "width": 1280.00
+    },
+    {
+      "config": "{}",
+      "displayName": "Página 1",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "b386dbf511a98c46f318",
+      "visualContainers": [],
       "width": 1280.00
     }
   ]
