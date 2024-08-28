@@ -234,12 +234,6 @@
             "expression": "DISTINCTCOUNT(D_posto[posto])",
             "formatString": "0",
             "lineageTag": "02ecd7f7-c770-4d30-b1e6-c9b8f273f390"
-          },
-          {
-            "name": "QTD_NomeFantasia",
-            "expression": "DISTINCTCOUNT(D_posto[nomefantasia])",
-            "formatString": "0",
-            "lineageTag": "9f1a2132-54d8-4ac9-be20-f83047600a9c"
           }
         ],
         "partitions": [
